@@ -1,12 +1,12 @@
 <?php
   
-  $clan = $_GET['id'];
-  $tag = $_GET['tag'];
-  $link = $_GET['link'];
-  $logo = $_GET['logoimg'];
+   $con = mysqli_connect("localhost","mkmatchmanager","abcdefrgtnmx","my_mkmatchmanager");
+
+   $clan = mysqli_real_escape_string($con, $_GET['id']);
+   $tag = mysqli_real_escape_string($con, $_GET['tag']);
+   $link = mysqli_real_escape_string($con, $_GET['link']);
+   $logo = mysqli_real_escape_string($con, $_GET['logoimg']);
   
-   $con=mysqli_connect("localhost","mkmatchmanager","cavbamubsa33","my_mkmatchmanager");
- 
    if (mysqli_connect_errno()){
     echo "Failed to connect to MySQL: " . mysqli_connect_error() . " Try to load again the page or contact an Admin.";
    }
