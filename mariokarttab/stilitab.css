@@ -1,0 +1,60 @@
+   .bottomdiv {
+	 background-color:#0C0C0C;
+	 width:100%;
+	 height:24px;
+	 position:absolute;
+	 left: 0;
+	 right: 0;
+	 text-align:center;
+	 font: 90% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	 color:#E8E8E8;
+  }
+  
+   table.tablewar {
+    text-align: center;
+    border: 1px solid #000000;
+    background-color: #383838;
+    border-collapse: collapse;
+   }
+   
+   table.tablewar td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: black;
+   }
+   
+   .top {
+    color: #FF9900; 
+    font: 18px Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+   }
+   
+   .col1 {
+    background-color: #242424;
+    color: #FFFFFF;
+    height: 25px;
+   }
+   
+   .bottomtr {
+    height: 50px;
+    color: #FFFFFF;    
+   }
+   
+   .col2 {
+    background-color: #131313;
+   }
+   
+   .fonte {
+    font: 28px 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #0099CC;
+   }
+   
+   .intro {
+    font: 15px 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    color: #0099CC;
+   }
+   
+   textarea {
+    resize: none;
+   }
